@@ -13,3 +13,4 @@ else:
         print("Camera opened, but frame not captured.")
     cap.release()
 
+ 
