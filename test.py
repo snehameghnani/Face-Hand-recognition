@@ -5,10 +5,11 @@ cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Camera not detected! Make sure it's connected or not in use.")
-else:
+else:  
     ret, frame = cap.read()
     if ret:
         print("Camera is working! Frame captured successfully.")
     else:
         print("Camera opened, but frame not captured.")
     cap.release()
+
