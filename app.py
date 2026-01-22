@@ -5,7 +5,7 @@ Real-time Face + Hand Detection + Gesture Recognition (webcam)
 - Uses MediaPipe Tasks GestureRecognizer (loads model bytes to avoid Windows path bug)
 - Auto-downloads model if missing (places in ./models/)
 - Shows gesture name + confidence, FPS, and debug prints
-- Press 'q' to quit
+- Press 'q' to quit  
 """
 
 import os
@@ -224,3 +224,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
