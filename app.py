@@ -27,7 +27,7 @@ from mediapipe.tasks.python import vision
 MODEL_DIR = Path("models")
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 MODEL_NAME = "gesture_recognizer.task"
-MODEL_PATH = (MODEL_DIR / MODEL_NAME).resolve()
+MODEL_PATH = (MODEL_DIR / MODEL_NAME).resolve() 
 
 MODEL_URL = (
     "https://storage.googleapis.com/mediapipe-models/gesture_recognizer/"
@@ -224,4 +224,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
