@@ -79,7 +79,7 @@ def main():
     # Read model bytes and prepare BaseOptions with model_asset_buffer
     with open(MODEL_PATH, "rb") as f:
         model_bytes = f.read()
-    print(f"Loaded model bytes from: {MODEL_PATH}")
+    print(f"Loaded model bytes from: {MODEL_PATH}") 
 
     # Initialize MediaPipe Holistic (face + hands)
     holistic = mp_holistic.Holistic(
@@ -224,5 +224,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
