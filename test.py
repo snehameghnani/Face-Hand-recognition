@@ -9,10 +9,11 @@ else:
     ret, frame = cap.read()
     if ret:
         print("Camera is working! Frame captured successfully.")
-    else:
+    else: 
         print("Camera opened, but frame not captured.")
     cap.release()
 
  
+
 
 
